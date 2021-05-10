@@ -1,0 +1,20 @@
+{
+  "name": "courseum",
+  "version": "1.0.0",
+  "description": "Convert Website to Desktop application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "redhet",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^8.2.0",
+    "electron-builder": "^22.4.1"
+  },
+  "build": {
+    "mac": {
+      "category": "public.app-category.utilities"
+    }
+  }
+}
